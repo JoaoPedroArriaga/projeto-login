@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px){
     body{
         background-image: linear-gradient(to top, #6C9FFA, #694F89);
+        background-attachment: fixed;
     }
     
     section#login{
