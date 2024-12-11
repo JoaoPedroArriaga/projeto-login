@@ -59,27 +59,6 @@ div#form>p{
     font-size: 0.8em;
 }
 
-form>input{
-    display: block;
-    background-color: #6C9FFA;
-    border-radius: 5px;
-    width: 100%;
-    height: 40px;
-    font-size: 1em;
-    color: white;
-    border: 0px;
-}
-
-form>a{
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid #6C9FFA;
-    border-radius: 5px;
-    width: 100%;
-    height: 40px;
-}
-
 .campo{
     background-color: #694F89;
     border: 2px solid #694F89;
@@ -110,4 +89,34 @@ form>a{
     border-radius: 8px;
     padding: 4px;
     transform: translateY(-8.9px);
+}
+
+form>input{
+    display: block;
+    background-color: #6C9FFA;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    color: white;
+    border: 0px;
+}
+
+form>a.botao{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    background-color: white;
+    color: #6C9FFA;
+    border: 1px solid #97bbfb;
+    border-radius: 7px;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.botao>i{
+    font-size: 0.8em;
 }
