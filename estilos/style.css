@@ -3,6 +3,72 @@
 /*
     Paleta de cores
     #4ecbd9 - Ciano
-    #4e73d9 - azul
-    #824ed9 - lilás
+    #4e73d9 - Azul
+    #694F89 - Lilás
 */
+:root{
+    --cyan: #4ecbd9;
+    --blue: #4e73d9;
+    --lilac: #694F89;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--lilac);
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+div#img{
+    display: block;
+    background: var(--lilac) url("../imagens/pattern.jpg") no-repeat left top;
+    background-size: cover;
+    height: 200px;
+}
+
+div#form{
+    display: block;
+    padding: 10px;
+}
+
+div#form>h1{
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+div#form>p{
+    font-size: 0.8em;
+ }
+
+ .campo{
+    background-color: var(--lilac);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+ }
