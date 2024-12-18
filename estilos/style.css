@@ -69,6 +69,8 @@ div#form>p{
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+
+    display: flex;
 }
 
 .campo>i{
@@ -90,7 +92,8 @@ div#form>p{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-9px);
+
+    flex: auto;
 }
 
 .campo>input:focus-within{
